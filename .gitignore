@@ -1,0 +1,183 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# testing
+/coverage
+.nyc_output
+*.lcov
+
+# builds and distributions
+/build/
+/dist/
+/out/
+/.next/
+/.nuxt/
+/.cache/
+/public/dist/
+
+# Mobile app specific
+/mobile-app/ios/Pods/
+/mobile-app/ios/build/
+/mobile-app/android/app/build/
+/mobile-app/android/.gradle/
+/mobile-app/android/build/
+/mobile-app/android/local.properties
+/mobile-app/android/captures/
+/mobile-app/android/app/release/
+*.apk
+*.aab
+*.ipa
+*.xcarchive
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.classpath
+.settings/
+.vs/
+*.sublime-workspace
+*.sublime-project
+.atom/
+.editorconfig
+.history/
+*.code-workspace
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+._*
+*~
+*.sw[a-p]
+
+# SSL Certificates for local development
+*.pem
+*.key
+*.crt
+*.csr
+*.srl
+
+# Backend specific
+/backend/dist/
+/backend/build/
+/backend/logs/
+/backend/tmp/
+
+# Microsoft Specific
+/microsoft-authentication-library-for-js/
+AdalConfig.json
+msalConfig.json
+
+# Docker
+.docker/data/
+docker-compose.override.yml
+
+# Generated files
+.docusaurus
+.cache-loader
+.eslintcache
+.stylelintcache
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.tsbuildinfo
+
+# Debug
+.debug/
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Production build folders
+wallet-app/build/
+admin-portal/build/
+backend/dist/
+
+# Test assets (except samples needed for dev)
+/test-assets/real-ids/
+/test-assets/personal/
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# TypeScript incremental build states
+*.tsbuildinfo
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Local Netlify folder
+.netlify
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Serverless
+.serverless/
+.serverless.yml
+
+# DID key files (should be stored securely, not in repo)
+*.jwk
+*private-key*
+*secret*
